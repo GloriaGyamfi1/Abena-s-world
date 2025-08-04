@@ -2,6 +2,7 @@ body {
     
     background-image: url('https://bit.ly/45Rod4a');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
