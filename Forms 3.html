@@ -9,7 +9,7 @@
             h1 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
             p { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
             h2 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-                 table, th, td { border: 2px solid black;
+                 table, th, td { border: 3px solid black;
             border-collapse: collapse;
         }
         th { text-align: center;}
@@ -26,13 +26,17 @@
             <form>
                 <table style="width:100%;">
                     <tr>
-                        <th colspan="3">Medical and Surgical History</th>
-                         
+                        <th colspan="3">Medical and Surgical History</th>    
                     </tr>
                     <tr>
                         <td>Hpertension</td>
                         <td><input type="radio" name="hypertension" id="hypertension" required>Yes</td>
                         <td><input type="radio" name="hypertension" id="hypertension" required>No</td>
+                    </tr>
+                    <tr>
+                        <td>Sickle cell disease</td>
+                        <td><input type="radio" name="sickle-cell" id="sickle-cell" required>Yes</td>
+                        <td><input type="radio" name="sickle-cell" id="sickle-cell" required>No</td>
                     </tr>
                     <tr>
                         <td>Heart disease</td>
@@ -80,8 +84,102 @@
                         <td><input type="radio" name="mental-illness" id="mental-illness" required>No</td>
                     </tr>
                 </table><br><br>
-               
-                    
+                <table style="width: 100%;">
+                     <tr>
+                        <th colspan="3">Social Risk Factors</th>    
+                    </tr>
+                    <tr>
+                        <td>Alcohol</td>
+                        <td><input type="radio" name="alcohol" id="alcohol" required>Yes</td>
+                        <td><input type="radio" name="alcohol" id="alcohol" required>No</td>
+                    </tr>
+                    <tr>
+                        <td>Smoking</td>
+                        <td><input type="radio" name="smoking" id="smoking" required>Yes</td>
+                        <td><input type="radio" name="smoking" id="smoking" required>No</td>
+                    </tr>
+                </table><br><br>  
+                <table style="width: 100%;">
+                      <tr>
+                        <th colspan="3">Family History</th>    
+                    </tr>
+                    <tr>
+                        <td>Hpertension</td>
+                        <td><input type="radio" name="hypertension" id="hypertension" required>Yes</td>
+                        <td><input type="radio" name="hypertension" id="hypertension" required>No</td>
+                    </tr>
+                     <tr>
+                        <td>Heart disease</td>
+                        <td><input type="radio" name="heart-disease" id="heart-disease" required>Yes</td>
+                        <td><input type="radio" name="heart-disease" id="heart-disease" required>No</td>
+                    </tr>
+                    <tr>
+                        <td>Diabetes</td>
+                        <td><input type="radio" name="  diabetes" id="diabetes" required>Yes</td>
+                        <td><input type="radio" name="diabetes" id="diabetes" required>No</td>
+                    </tr>
+                    <tr>
+                        <td>Sickle cell disease</td>
+                        <td><input type="radio" name="sickle-cell" id="sickle-cell" required>Yes</td>
+                        <td><input type="radio" name="sickle-cell" id="sickle-cell" required>No</td>
+                    </tr>
+                    <tr>
+                        <td>Metal illness</td>
+                        <td><input type="radio" name="mental-illness" id="mental-illness" required>Yes</td>
+                        <td><input type="radio" name="mental-illness" id="mental-illness" required>No</td>
+                    </tr>
+                    <tr>
+                        <td>Birth defects</td>
+                        <td><input type="radio" name="birth-defect" id="birth-defect" required>Yes</td>
+                        <td><input type="radio" name="birth-defect" id="birth-defect" required>No</td>
+                    </tr>
+                    <tr>
+                        <td>Multiple pregnancies</td>
+                        <td><input type="radio" name="Multiple-pregnancies" id="Multiple-pregnancies" required>Yes</td>
+                        <td><input type="radio" name="Multiple-pregnancies" id="Multiple-pregnancies" required>No</td>
+                    </tr>
+                </table><br><br>
+                <table style="width: 100%;">
+                    <tr>
+                        <th colspan="3">Physical Examination at First Visit</th>    
+                    </tr>
+                    <tr>
+                        <td>General condition</td>
+                        <td><input type="radio" name="general-condition" id="general-condition" required>Normal</td>
+                        <td><input type="radio" name="general-condition" id="general-condition" required>Abnormal</td>
+                    </tr>
+                    <tr>
+                        <td>Face</td>
+                        <td><input type="radio" name="face" id="face" required>Normal</td>
+                        <td><input type="radio" name="face" id="face" required>Abnormal</td>
+                    </tr>
+                    <tr>
+                        <td>Head & Neck</td>
+                         <td><input type="radio" name="head-neck" id="head-neck" required>Normal</td>
+                        <td><input type="radio" name="head-neck" id="head-neck" required>Abnormal</td>
+                    </tr>
+                    <tr>
+                        <td>Breasts</td>
+                         <td><input type="radio" name="breasts" id="breasts" required>Normal</td>
+                        <td><input type="radio" name="breasts" id="breasts" required>Abnormal</td>
+                    </tr>
+                    <tr>
+                        <td>Abdomen</td>
+                        <td><input type="radio" name="abdomen" id="abdomen" required>Normal</td>
+                        <td><input type="radio" name="abdomen" id="abdomen" required>Abnormal</td>
+                    </tr>
+                    <tr>
+                        <td>Heart</td>
+                        <td><input type="radio" name="heart" id="heart" required>Normal</td>
+                        <td><input type="radio" name="heart" id="heart" required>Abnormal</td>
+                    </tr>
+                    <tr>
+                        <td>Lung</td>
+                        <td><input type="radio" name="lung" id="lung" required>Normal</td>
+                        <td><input type="radio" name="lung" id="lung" required>Abnormal</td>
+                    </tr>
+                </table><br><br>
+                <input type="submit" value="submit">
             </form>
         </body>
 </html>
