@@ -9,3 +9,7 @@ h3 { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-ser
 font-size: small;}
 p { font-family: 'Times New Roman', Times, serif;
 font-size: smaller;}
+a:link {color: rgb(136, 9, 254); text-decoration: none;} /* unvisited link */
+a:visited {color:rgb(35, 248, 248); text-decoration: none;} /* visited link */
+a:hover {color: rgb(33, 33, 252);  text-decoration: none;} /* mouse over link */
+a:active {color:rgb(128, 242, 14);  text-decoration: none;} /* selected link */

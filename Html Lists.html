@@ -5,17 +5,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <title>Zero To Mastery</title> 
         <style>
-          h1 {color: #e41d03;}
-          h2 {color: #e41d03;}
-          body { background-color: #eddddf;}
-
+          h1 {color: rgb(228, 29, 3); text-align: center;}
+          h2 {color: #e41d03; text-align: center;}
+          body { background-color: rgba(107, 186, 212, 0.6);}
+            div.one {  border: 5px solid black; margin: 50px 50px 20px 100px;  box-sizing: border-box;
+                padding: 10px 50px 75px 25px; width: 350px; }
+                div.two {border: 5px solid black; margin: 25px 50px 75px 100px;  box-sizing: border-box;
+                padding: 10px 50px 75px 25px; width: 350px; }
+            h2.diet {text-align: center;}
+            .flex-container { display: flex; flex-wrap: wrap; display: flex;}
+            .flex-container > div { margin: 10px; padding: 20px;}  
+                ul.one { line-height: 1.8;}
+                ol.two {line-height: 1.8;}
+                ol.three {line-height: 1.8;}
+                ul.four {line-height: 1.8;}
+                ul.five {line-height: 1.8;}
+                ul.six {line-height: 1.8;}
+                ol.seven {line-height: 1.8;}
         </style>
     </head>
     <body>
+        <!--this html has been further styled with css-->
             <h1>Health Messages During Pregnancy</h1>
             <h2>1. Essential information and actions for pregnant women</h2>
             <h3>1st Antenatal and Important Examination</h3>
-            <ul>
+            <ul class="one">
                 <li>Health care provider (midwife/doctor) will tell you when and how often you are recommended to 
                     come to ANC.</li>
                 <li>Always keep your appointments with health care provider but in case you feel unwell, see the provider even
@@ -25,7 +39,7 @@
                 <li>You will be offered HIV test at ANC, so please take advantage of this.</li>
             </ul>
             <h3>Protecting your pregnancy</h3>
-            <ol>
+            <ol class="two">
                 <li>Take iron and folic acid tablets every day during pregnancy to increase iron in your blood. Inadequate iron will lead
                     to sickness (anaemia), which will make you and your baby weak, sick and tired.</li>
                 <li><em>Taking iron tablets is not dangerous for your baby</em></li>
@@ -34,7 +48,7 @@
                 <li>Take <b>tetanus diphtheria immunization</b>once or twice during your antenatal period.</li>
             </ol>
             <h3>Prevention of Malaria</h3>
-            <ol type="I">
+            <ol class="three" type="I">
                 <li>Malaria can cause anaemia, preterm delivery and delivery of a small unhealthy baby. It can cause
                     death of the mother or unborn baby.</li>
                 <li>Sleep under a long lasting insecticide treated net to protect you an your unborn baby from malaria.</li>
@@ -42,12 +56,12 @@
             </ol>
             <h2>2. How to maintain your health during pregnancy</h2>
             <h3>Personal Hygiene</h3>
-            <ul style="list-style-type: square;">
+            <ul class="four" style="list-style-type: square;">
                 <li>Bathe regularly with soap everyday.</li>
                 <li>Clean your teeth with tooth brush twice daily.</li>
             </ul>
             <h3>Resting, Relaxation and Sleeping</h3>
-            <ul style="list-style-type: none;">
+            <ul class="five" style="list-style-type: none;">
                 <li>Get enough rest to restore your energy.</li>
                 <li>Get support from partner or other family members with household chores.</li>
             </ul>
@@ -60,7 +74,7 @@
                 <li>You are recommended to do simple exercise as long as you feel comfortable.</li>
             </ol>
             <h3>Things you should not do during pregnancy</h3>
-            <ul style="list-style-type: circle;">
+            <ul class="six" style="list-style-type: circle;">
                 <li>Smoking</li>
                 <li>Take unprescribed drugs and concoctions</li>
                 <li>Taking alcohol</li>
@@ -68,32 +82,33 @@
                 <li>Lifting heavy loads</li>
             </ul>
             <h2>3. How to eat well during pregnancy</h2>
-            <ol type="a">
+            <ol class="seven" type="a">
                 <li>Eat one extra meal each day (4 meals a day) and snack (such as fruits and biscuits) to stay healthy.</li>
                 <li>The meals to be taken shoud be prepare from a variety of foods everyday. Eat more iorn-rich foods, e.g. meat, fis, etc.</li>
                 <li>If you eat well, you will be healthier and your baby will grow healthier and stronger.</li>
                 <li>Your family should provide a variety of foods for pregnant women. 4 meals a day and personal hygiene are also important for all your family memebers.</li>
             </ol>
-            <h2>The 4 star diet</h2>
-            <div style="background-color:#FFF4A3;">
+            <h2 class="diet" >The 4 star diet</h2>
+            <div class="flex-container">
+            <div class="one" style="background-color:#FFF4A3;">
               <h3>Staple</h3>
               <p>Grains such as maize, wheat, rice, millet and sorghum.</p>
                 <P>Roots and tubers such as cassava, yam, cocoyam, plantain and potatoes.</p>
             </div>
-            <div style="background-color:#fcabb4;">
+            <div class="one" style="background-color:#fcabb4;">
                 <h3>Legumes And Seeds</h3>
                 <p>Beans, melon seeds, groundnuts and sesame.</p>
             </div>
-            <div style="background-color:#b2f1cb;">
+            <div class="one" style="background-color:#b2f1cb;">
                 <h3>Fruits And Vegetables</h3>
                 <p>Mango, pawpaw, orane, banana, pineapple, watermelon, avocado.</p>
                 <p>Dark-green leaves, carrots, onoins, tomatoes, cocoyam leaves, cabbage, sweet potato and pumpkin.</p>
             </div>
-            <div style="background-color:#86cefa;">
+            <div class="one" style="background-color:#86cefa;">
                 <h3>Animal-Source Foods</h3>
                 <p>Foods such as chicken, fish, liver, beef, eggs, milk and milk products.</p>
             </div>
-            <div style="background-color:#d084ff;">
+            <div class="two" style="background-color:#d084ff;">
                 <ul>
                     <li>Oil and fat such as oil seed, palm oil, fortified vegetables oil and butter added to vegetables and other foods will improve
                         the absorbtion of some vitamins and provide extra energy.</li>
@@ -101,6 +116,6 @@
                       <li>You shoud drink lots of water and fresh juice as much as possible.</li>
                 </ul>
             </div>
-
+            </div>
     </body>
 </html>
