@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <html>
+        <head>
+            <meta charset="UTF-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Zero To Mastery</title>
+           <style>
+            th, td {
+                padding: 6px;
+               
+            }
+            th {text-align: left;}
+            td {
+                text-align: left;
+            }
+            h1, p {font-family: 'Times New Roman', Times, serif;}
+            #panel {display: none;}
+            #panel, .flip {background-color: rgb(74, 217, 165,0.3);}
+            
+           </style>
+        </head>
+        <body>
+            <h1>This is a simple table with a hide and a display JavaScript element</h1>
+            <p class="flip" onclick="myFunction()">Click to show and hide Panel</p>
+            <div id="panel">
+                <table style="width: 100%;">
+            <tr>
+            
+                    <th>Friends</th>
+                    <th>Contact</th>
+                    <th>Location</th>
+                
+            </tr>
+            <tr>
+                <td>Gloria</td>
+                <td>+2336904678</td>
+                <td>Nsawam</td>
+            </tr>
+            <tr>
+                <td>Abigail</td>
+                <td>+2337893675</td>
+                <td>Accra</td>
+            </tr>
+            <tr>
+                <td>Rosemary</td>
+                <td>+2331135678</td>
+                <td>Lapaz</td>
+            </tr>
+        </table>
+            </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("panel");
+                    if (x.style.display === "none") {
+                        x.style.display = "block"; 
+                    } else {
+                        x.style.display = "none"
+                    }
+                }
+            </script>
+        </body>
+    </html>
