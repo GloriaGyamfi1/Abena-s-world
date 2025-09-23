@@ -14,15 +14,16 @@
             td {
                 text-align: left;
             }
-            h1, p {font-family: 'Times New Roman', Times, serif;}
+            h1, p {font-family: 'Times New Roman', Times, serif; color: white;}
             #panel {display: none;}
             #panel, .flip {background-color: rgb(74, 217, 165,0.3);}
+            body {background-color: rgb(54, 54, 54);}
             
            </style>
         </head>
         <body>
             <h1>This is a simple table with a hide and a display JavaScript element</h1>
-            <p class="flip" onclick="myFunction()">Click to show and hide Panel</p>
+            <input type="button" value="Click me to show and hide table" class="flip" onclick="myFunction()">
             <div id="panel">
                 <table style="width: 100%;">
             <tr>
