@@ -5,21 +5,32 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Zero To Mastery</title>
         <style>
-            .nav {background-color: lightgray;
+            ul {background-color: lightgrey;
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
-               
+               width: 200px;
+
             }
-            .nav li {display: inline-block;
-                font-size: 15px;
-                padding: 10px;
-            }
+             li a {
+                  display: block;
+                 color: black;
+                 padding: 8px 16px;
+                text-decoration: none;
+                    }
+                    li a:hover {
+                        background-color: rgb(103, 102, 102);
+                        color: white;
+                    }
+            li a.active {
+                background-color: green;
+                color: white;
+            } 
         </style>
     </head>
             <body>
                 <h1>A Navigation bar</h1>
-                <ul class="nav">
+                <ul>
                     <li><a href="Css Borders.html">Css Borders</a></li>
                     <li><a href="Css Float.html">Css Float</a></li>
                     <li><a href="Css Styling List.html">Css Styling Lists</a></li>
